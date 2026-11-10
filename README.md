@@ -51,6 +51,7 @@ sh proyecto-db/scripts/restaurar.sh proyecto-db/backups/laboratorio_2026-11-10_1
 ```
 
 - `actualizar.sh` (en `proyecto-backend/deploy/`) hace un respaldo automático antes de actualizar.
+- Para un respaldo automático diario, ver `DEPLOY.md` de `proyecto-backend` (sección 10).
 - Los respaldos tienen datos de alumnos: **no se suben a git** (`backups/` está en
   `.gitignore`). Conviene copiarlos fuera del servidor de vez en cuando.
 - En Windows, ejecútalos desde **Git Bash**.
