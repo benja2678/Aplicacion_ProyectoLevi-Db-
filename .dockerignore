@@ -1,0 +1,8 @@
+# La imagen no necesita ningún archivo de esta carpeta (solo el Dockerfile).
+# Sobre todo: los respaldos NO deben enviarse a Docker (tienen datos de alumnos).
+backups/
+*.sql.gz
+*.dump
+scripts/
+.git/
+*.md
