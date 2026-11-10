@@ -1,0 +1,4 @@
+# Guarda y descarga todos los archivos de texto con saltos de línea de Linux (LF).
+# Es importante en Windows: un script .sh con saltos de Windows (CRLF) no funciona
+# dentro de Docker ni en el servidor (error "/bin/sh^M: not found").
+* text=auto eol=lf

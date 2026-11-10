@@ -1,0 +1,21 @@
+# Secretos: NUNCA subir al repositorio
+.env
+
+# Respaldos de la base de datos (contienen datos de los alumnos)
+backups/
+*.sql.gz
+*.dump
+
+# Por si acaso
+.venv/
+venv/
+__pycache__/
+node_modules/
+dist/
+
+# Editor y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
